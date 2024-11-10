@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+
+
+    --bg-color-1: rgb(245, 245, 245);
+    --bg-color-2: rgb(86, 0, 136);
+}
+
+.main__route {
+    margin: 2rem 5rem;
+}
+
+.main__product {
+    margin: 2rem 5rem;
+    padding: 2rem 4rem;
+    background-color: white;
+    border-radius: .5rem;
+    box-shadow: 0px 0px 10px -5px black;
+    display: flex;
+}
+
+.main__images {
+    width: 50%;
+    display: flex;
+    gap: 2rem;
+}
+
+.main__gallery {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__gallery-image {
+    width: 100px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.main__image {
+    width: 450px;
+    height: 500px;
+    object-fit: contain;
+}
+
+.main__desc {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    width: 50%
+}
+
+.main__desc-title {
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+.main__desc-code {
+    font-size: .9rem;
+}
+
+.main__desc-price {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.main__desc-buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--bg-color-2);
+}
+
+.main__desc-button {
+    color: var(--bg-color-2);
+    background-color: white;
+    border-width: 1px;
+    border-color: var(--bg-color-2);
+    padding: .5rem;
+    cursor: pointer;
+    border-radius: .5rem;
+
+    &:hover {
+        background-color: var(--bg-color-2);
+        color: white;
+    }
+}
+
+.main__desc-colors {
+    display: flex;
+    gap: 1rem;
+}
+
+.main__desc-color {
+    cursor: pointer;
+    background-color: red;
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+}
+
+.main__desc-storages {
+    display: flex;
+    gap: 1rem;
+}
+
+.main__desc-text {
+    padding-bottom: .5rem;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(215, 215, 215);
+}
+
+.width {
+    width: 30%;
+    font-weight: bold;
+    
+}

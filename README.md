@@ -9,5 +9,8 @@
 ## Librerias: 
 - [React router](https://reactrouter.com/en/main) (para crear rutas)
 
+# Despliegue 🚀
+- [Link](https://star-phone.netlify.app/)
+
 # Instalaciones necesarias: 
 - Ejecutar "npm install" para crear la carpeta node_modules
